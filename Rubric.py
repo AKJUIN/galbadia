@@ -2,9 +2,9 @@ from canvasapi import Canvas
 import pandas as pd
 
 # User configuration
-API_URL = "https://<your-canvas-domain>.instructure.com"  # Replace with your Canvas domain
-ACCESS_TOKEN = "your-access-token"  # Replace with your Canvas Access Token
-SEARCH_CRITERION = "specific keyword or phrase"  # Replace with the criterion you're searching for
+API_URL = "https://<your-canvas-domain>.instructure.com" 
+ACCESS_TOKEN = "your-access-token"  
+SEARCH_CRITERION = "specific keyword or phrase"  
 
 # Connect to Canvas
 canvas = Canvas(API_URL, ACCESS_TOKEN)
